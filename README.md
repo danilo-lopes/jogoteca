@@ -1,6 +1,6 @@
 # Jogoteca
 
-[![Versão 2.0]('https://hub.docker.com/repository/docker/dansolo7/jogoteca/tags?page=1')]
+[Versão 2.0]('https://hub.docker.com/repository/docker/dansolo7/jogoteca/tags?page=1')
 
 ### Setup
 
