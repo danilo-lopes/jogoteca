@@ -13,6 +13,14 @@ Crie um docker network do tipo overlay chamada `backend` antes de subir o projet
 
 Obs: Vai precisar iniciar o `docker swarm`
 
+***Exporte as seguintes variaveis de ambiente no seu sistema:***
+```
+MYSQL_HOST='mysql' # Nome do serviço do banco na rede overlay do docker
+MYSQL_USER='nome do usuario do banco'
+MYSQL_PASSWORD='senha do usuario do banco'
+MYSQL_DB='jogoteca' # Database por padrao tem o nome de jogoteca
+```
+
 ***docker-compose -f docker-compose.yml up***
 
 # Sobre
